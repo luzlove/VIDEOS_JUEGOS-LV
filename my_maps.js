@@ -4,13 +4,13 @@ NOTA: AL FINAL DE CADA NIVEL, INICIA EL SIGUIENTE
 
 const emojis = {
   '-': ' ',
-  'O': '🧧',
-  'X': '🌱',
+  'O': '🏡',
+  'X': '🔳',
   'I': '🥩',
   'PLAYER': '🐶',
   'BOMB_COLLISION': '🥶',
   'GAME_OVER': '😭',
-  'WIN': '🎉🎉🎉',
+  'WIN': '🏆',
   'HEART':'❤'
 };
 
