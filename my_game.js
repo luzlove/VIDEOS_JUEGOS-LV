@@ -82,7 +82,7 @@ function startGame() {
     victoryMsg.style.borderRadius = '0.5em';
     victoryMsg.style.zIndex = '1000';
     victoryMsg.innerHTML = `
-        <p>🎉🎉🎉</p>
+        <p>🏆</p>
     `;
     document.body.appendChild(victoryMsg);
     gameWin();
