@@ -13,7 +13,8 @@ const spanLives = document.querySelector('#lives');
 const spanTime = document.querySelector('#time');
 const spanRecord = document.querySelector('#record');
 const pResult = document.querySelector('#result');
-const reiniciar = document.querySelector('#reiniciar')
+const reiniciar = document.querySelector('#reiniciar');
+const sound  = document.querySelector('#sonido');
 
 let canvasSize;
 let elementsSize;
@@ -270,3 +271,9 @@ reiniciar.addEventListener('click', againPage)
 function againPage() {
     location.reload()
 }
+const playSound = function() {
+  var sonido = new Audio("pou1.mp3");
+  sonido.play();
+  document.removeEventListener('click', playSound);
+}
+document.addEventListener('click', playSound);
